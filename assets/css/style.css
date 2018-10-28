@@ -1,0 +1,515 @@
+.mynav{
+    background: transparent;
+    border:0px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-top:10px;
+}  
+.navbar-brand img{
+    width:100px;
+    height: 100px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #69870b;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    transition: .7s;
+}
+
+.navbar-collapse{
+    border: none;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#D0CACA;
+    transition: .7s;
+}
+.headerwraper{
+    background-color: #f2ff95;
+    width: 100%;
+    background-size: cover;
+    min-height: 90px;
+    box-shadow: 0px -25px 23px 13px;
+
+}
+.headertext h1{
+    white-space: pre-line;
+    font-size: 70px;
+    color: #f2ff95;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.headertext p{
+    font-size: 30px;
+    color: #f2ff95;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+}
+.myhover{
+    margin-top: 22px;
+}
+.mybutton a:hover{
+    text-decoration: none;
+}
+.btnpadding{
+    padding-bottom: 10px;
+}
+.mybutton .btn1{
+    border-radius:0px;
+    background: #00b22b;
+    color: white;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 500;
+    border:none;
+}
+.mybutton .btn1:hover{
+    background: #009324;
+}
+.mybutton .btn2{
+    border-radius:0px;
+    background: transparent;
+    color: #dc2626;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid;
+    outline: 0;
+}
+.mybutton .btn2:hover{
+    background:#00b22b;
+}
+
+/*grid css start*/
+
+.gridwraper{
+   border-bottom: 2px solid #E4F1FE;
+   border-radius:15px;
+    min-height: 284px;
+    
+}
+.mygrid h1{
+    font-family: "raleway" , semi-bold;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.mygrid p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #827c7c;
+    margin: 0;
+    padding-top: 4px;
+   white-space: pre-line;
+}
+.mygrid{
+    padding-top:50px;
+}
+.img1 img{
+    width:18%;
+}
+.img2 img{
+    width:33%;
+}
+.img3 img{
+    width:19%;
+}
+.img1{
+    padding-bottom: 30px;
+}
+.img2{
+    padding-bottom: 30px;
+}
+.img3{
+    padding-bottom: 30px;
+}
+.gridpad{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.img2 h1{
+    margin-top: 0px;
+}
+
+/*grid css end*/
+/*tool css start*/
+.toolwraper{
+
+    min-height: 460px;
+    background-color:#f2ff95;
+}
+.mytools{
+    padding-top: 50px;
+    
+}
+.mysec{
+    padding-left: 40px;
+}
+.mysec h1{   
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+    color: #3a3737;
+    white-space: pre-line;
+    letter-spacing: 1px;
+    
+}
+.mysec button{
+    background-color: #0484D4;
+    border-color: #0484D4;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 90px;
+}
+.mysec button:hover{
+    background: #0370B5;
+    color:white;
+}
+.mytools p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #827c7c;
+    font-size: 17px;
+    padding-bottom: 18px;
+    padding-top: 4px;
+   
+}
+/*tool css end*/
+/*learn css start*/
+.learn{
+    min-height: 475px;
+}
+.bk1 img{
+    border: 1px solid transparent;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 16px;
+    padding-right: 21px;
+    background-color: #E83200;
+}
+.bk2 img{
+    border: 1px solid transparent;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 16px;
+    padding-right: 21px;
+    background-color: #9635BB;
+}
+.bk3 img{
+    border: 1px solid transparent;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 16px;
+    padding-right: 21px;
+    background-color: #00B22B;
+}
+.coding h1{
+    font-family: 'Playfair Display', serif;;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+}
+.coding p{
+   color: #827c7c;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding-bottom: 9px;
+}
+.learnsec{
+   margin-top: 60px;
+   
+}
+.myborder{
+    border: 1px solid #e2e2e2;
+    background-color: #FAFAFA;
+}
+.codepic{
+    padding-right: 0px;
+    padding-left: 31px;
+}
+.padbtm{
+    padding: 10px;
+}
+.learn button{
+    background-color: #0484D4;
+    border-color: #0484D4;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 90px;
+}
+.lrnp1 h1{
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+    color: #3a3737;
+    white-space: pre-line;
+    letter-spacing: 1px;
+}
+.lrnp1 p{
+    color: #827c7c;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+/*learn css end*/
+/*education css start*/
+.education{
+    background-color: #BEED54;
+    min-height: 350px;
+}
+.educontent{
+    padding-top: 60px;
+}
+.educontent h1{
+    line-height: normal;
+    font-family: 'Lato', sans-serif;
+    color:#696666;
+    white-space: pre-line;
+}
+.educontent p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color:#696666;
+    font-size: 16px;
+    white-space: pre-line;
+    padding-bottom: 20px;
+}
+.edubutton button{
+    background: white;
+    padding: 10px;
+    border-radius: 0px;
+    color: #0483D3;
+}
+.edubutton button:hover{
+    color:#0483D3;
+}
+.edubutton a:hover{
+    text-decoration: none;
+    
+}
+.btnpad{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+/*education css end*/
+
+/*trial css start*/
+.trial{
+    max-height: 350px;
+   
+}
+.trial h1{
+    line-height: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.trial p{
+    font-family: 'Lato', sans-serif;
+    color: #827c7c;
+    font-weight: 300;
+    white-space: pre-line;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.trialtop{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.trialbtn{
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.trialbtn button{
+  background-color: #00b22b;
+  padding:10px;
+  border-radius:0px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.trialbtn button:hover{
+    background: #009324;
+     color: white;
+}
+.trialbtn a:hover{
+    text-decoration: none;
+}
+/*trial css end*/
+
+/*tech css start*/
+.tech{
+    min-height: 320px;
+}
+.techgrid{
+    padding-top: 50px;
+}
+.social{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.padtp img{
+    padding-top: 7px;
+}
+.padtp2{
+    padding-left: 35px;
+}
+.padtp3{
+    padding-left: 65px;
+}
+
+.myform input{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.myform{
+    padding-right: 100px;
+    
+}
+.subbtn button{
+    background-color: #333333;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px 100px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 0px;
+}
+.myform input{
+    border-radius: 0px;
+    height: 40px;
+    border:1px solid black;
+}
+.techgrid p{
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #827c7c;
+    font-size:16px;
+}
+.techgrid h5{
+    font-family: 'Lato', sans-serif;
+    color: #827c7c;
+    font-size:16px;
+    margin-top:0px;
+    padding-bottom: 10px;
+}
+.padingbtm{
+    padding-bottom: 40px;
+}
+hr{
+    border-color:2px solid #e2e2e2 ;
+}
+
+.subbtn a:hover{
+    text-decoration: none;
+}
+.subbtn button:hover{
+    background: #333333;
+    color:white;
+}
+/*tech css end*/
+/*footer css start*/
+
+.pad{
+    min-height: 100px;
+}
+.pad{
+    padding-top: 30px;
+}
+/*footer css end*/
+
+
+@media screen and (max-width: 991px) {
+   .gridpad {
+    padding-right:0px;
+    padding-left: 0px;
+    }
+    .mysec{
+        padding-left: 15px;
+    }
+    .navbar-brand img{
+    padding-left:0px;
+        
+}
+.mysec h1{
+    white-space: normal;
+}
+.mysec p{
+    white-space: normal;
+    
+     
+}
+.codepic{
+    padding-right: 0px;
+    padding-left: 0px;
+   
+}
+.coding{
+    padding-left: 0px;
+}
+.coding p{
+    
+    padding-bottom: 0px;
+}
+.educontent p{
+   
+    white-space: normal;
+}
+.educontent h1{
+    white-space: normal;
+}
+.btnpad {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.trial p{
+    
+    white-space: normal;
+}
+
+}
+@media screen and (max-width: 460px) {
+    .education{
+    background-color: #0483D3;
+    min-height: 500px;
+}
+.trialbtn{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.social{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padtp2{
+    padding-left: 0px;
+}
+.padtp3{
+    padding-left: 0px;
+}
+.myform{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+}
+
+
+
+.dropdown ul li a:hover {
+    color: whitesmoke;
+    font-size: 20px;
+    background: transparent;
+}
+.search-container .form-control{
+
+}

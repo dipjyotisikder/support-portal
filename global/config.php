@@ -1,0 +1,4 @@
+<?php
+
+DEFINE("BASE_URL", "/");
+DEFINE("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/");
